@@ -1,0 +1,208 @@
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.signupform-margin{
+  /*height: 300px;
+  width: 50%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+#signUpForm .modal-content{
+    
+    width:80%; 
+    /*height: 560px;*/
+    margin-top: 77px;
+    margin-left: 88px;
+    background-color: #FFF;
+    /*background: transparent;*/
+    border: none;
+}
+#signUpModel .modal-content{
+  width : 65%; 
+  height: 240px;
+  margin-top: 80px;
+  margin-left: 170px;
+  justify-content: center;
+  background-color: #FFF;
+  /*background: transparent;*/
+  border: none;
+}
+.signUp-form-wrapper {
+    width: 89%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 65px;
+    margin-top: -16px;
+    margin-right: 67px;
+}
+.addques-form-wrapper {
+  width: 89%;
+  /* height: 710px; */
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-left: 65px;
+  margin-top: -16px;
+  margin-right: 67px;
+}
+#signUpTabs {
+    border-radius: 30px;
+    border-color: black;
+    background: #ffffff;
+    color: black;
+    border-color: black;
+    width: 70%;
+}
+#signUpTabs:hover {
+  color: #ffffff;
+  background-color:#2b5ea6;
+  border-color: #2b5ea6;
+  /* color: black; */
+  /* background-color: #ffe6e6;
+  border: 2px solid #ffe6e6; */
+}
+form {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.titleSignUp {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  padding: 0px 0px 7px;
+  font-weight: lighter;
+}
+
+input {
+  padding: 5px 7px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #212529;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+textarea#address {
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+  border: 1px solid #212529;
+}
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.first_name {
+  margin-right: 1%;
+}
+
+.last_name {
+  margin-left: 1%;
+}
+
+.first_name,
+.last_name,
+.confirm_pass,
+.postal_code,
+.address,
+.phone,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/*.first_name,
+.last_name {
+  width: 49%;
+}*/
+
+.email,
+.password,
+.confirm_pass,
+.postal_code,
+.address,
+.phone {
+  width: 100%;
+}
+
+.submitForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitForm button {
+  background-color: #fff;
+  color: #fff;
+  border: 1px solid #212529;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  /* font-weight: lighter; */
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: .25em;
+}
+
+.submitForm button:hover {
+  /* color: black;
+  background-color: #ffe6e6;
+  border: 2px solid #ffe6e6; */
+  color: #ffffff!important;
+  background-color:#2b5ea6;
+  border-color: #2b5ea6;
+}
+.signUpBtn {
+    width: 100%;
+    color: black !important;
+    border-radius: 20px;
+}
+.signUpBtn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+.modal-header .close span{
+ 
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 50%;
+  font-weight: bolder;
+  height: 31px;
+  width: 31px;
+  text-align: center;
+
+}
+/*.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}*/

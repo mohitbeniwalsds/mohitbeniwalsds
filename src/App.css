@@ -1,0 +1,66 @@
+/*.App {
+  text-align: center;
+}*/
+
+.title-name {
+  text-align: center;
+}
+
+.nameSection {
+  text-align: left;
+  padding: 0px 0px 0px;
+}
+
+.nameSection #fname, #mname {
+  padding: 0px 2px 0px;
+}
+
+.rating i.filled {
+  color: #f4c150;
+}
+
+._2iA8p44d0WZ-WqRBGcAuEV {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 5px;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+  margin-right: 2rem;
+  padding: 1rem;
+  padding-right: 2rem;
+  width: 100%;
+  min-height: 40px;
+  background: white;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #252424;
+  color: #989898;
+  padding: .375rem .75rem;
+  line-height: 1.5;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.videoplayer{
+  margin: 0 !important;
+}
+._2iA8p44d0WZ-WqRBGcAuEV input {
+  padding: 0 10px !important;
+  color: #000;
+}
+
+._2iA8p44d0WZ-WqRBGcAuEV input::placeholder {
+  color: #000;
+  font-weight: 500;
+  opacity: 1;
+  font-size: 16px;
+}
+#profile_pic_upload{
+  top: 60px !important;
+  cursor: pointer;
+  z-index: 99;
+}

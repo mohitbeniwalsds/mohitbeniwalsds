@@ -1,0 +1,55 @@
+@media only screen and (max-width:769px) {
+  .secheading{
+    font-size: 20px; 
+  }
+  .Homepage-header {
+    z-index: 9999;
+    margin-bottom: -155px;	
+  }
+  .imageBanner {
+  	margin-left : 26px;
+  }
+  .topBarMenu.responsive {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .cleaningbanners{
+    display: none;
+  }
+}
+
+@media only screen and (max-width:1440px) {
+  .custom-file-input::before {
+    width: 39%;
+    margin-left: 64%;
+  
+   
+}
+
+
+}
+@media only screen and (max-width:1024px) {
+custom-file-input::before {
+  content: 'Choose File';
+  display: block;
+  background: linear-gradient(top, #f9f9f9, #e3e3e3);
+  /* border: 1px solid #999; */
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  /* font-weight: 700; */
+  font-size: 20pt;
+  width: 38%;
+  text-align: center;
+  background: #a2a2a7;
+  margin-left: 65%;
+  height: inherit;
+  color: #FFF;
+  margin-top: -7px;
+  padding: 6px;
+}
+
+}

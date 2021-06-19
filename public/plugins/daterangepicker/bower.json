@@ -1,0 +1,43 @@
+<<<<<<< HEAD
+{
+  "name": "daterangepicker",
+  "main": [
+    "daterangepicker.js",
+    "daterangepicker.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "moment.js",
+    "moment.min.js"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 3",
+    "moment": ">=2.9.0"
+ }
+}
+=======
+{
+  "name": "daterangepicker",
+  "main": [
+    "daterangepicker.js",
+    "daterangepicker.css"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "moment.js",
+    "moment.min.js"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 3",
+    "moment": ">=2.9.0"
+ }
+}
+>>>>>>> c92164af4d8d9b571292ac32c3dff37f4c03d55d

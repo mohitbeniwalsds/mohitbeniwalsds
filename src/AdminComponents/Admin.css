@@ -1,0 +1,642 @@
+.admin-nav-header-logo {
+    padding-left: 40px;
+    padding-top: 3px;
+    background: #2b5ea6;
+    padding-bottom: 8px;
+    /* border-bottom: 1px solid #eee; */
+}
+
+.AdminContainer {
+    margin-top: 7%;
+    margin-left: 20%;
+    width: 79%;
+    height: 585px;
+}
+
+.AdminLiveOperation {
+    margin-top: 5%;
+    margin-left: 20%;
+    width: 79%;
+    height: 585px;
+}
+
+.elevation-4 {
+    box-shadow: none;
+}
+
+.user-panel img {
+    width: 3.1rem;
+}
+
+.sidebar {
+    padding: 0;
+}
+
+.MuiSvgIcon-root {
+    float: right;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+body:not(.sidebar-mini-md) .content-wrapper, body:not(.sidebar-mini-md) .main-footer, body:not(.sidebar-mini-md) .main-header {
+    margin-left: 18%;
+}
+
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background: transparent;
+    border-left: 4px solid #007bff;
+    border-radius: 0;
+}
+
+.navbar-white {
+    background-color: #386eb9;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    margin-top: -4px;
+}
+
+.form-content-liveOperation {
+    margin-left: -10px;
+    width: 100%;
+}
+
+.header-adminLogo {
+    width: 42px;
+    height: 42px;
+    position: relative;
+    border-radius: 100px;
+    margin-top: 2px;
+}
+
+.admin-notification {
+    padding: 10px 17px 0;
+}
+
+.admin-logo-icon {
+    padding: 11px 20px 0;
+}
+
+.admin-logo-icon h4 {
+    font-size: 22px;
+    color: #000;
+    padding-left: 20px;
+font-weight: 600;
+}
+
+.admin-sidbar {
+    bottom: 0;
+    float: none;
+    height: 100vh;
+    left: 0;
+    position: fixed !important;
+    top: 0;
+    width: 19%;
+}
+
+.admin-header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1037;
+    height: 66px;
+}
+
+.searchContainer {
+    bottom: 0;
+    float: none;
+    height: 100vh;
+    left: 0;
+    position: fixed !important;
+    top: 0;
+    margin-left: 20%;
+    width: 16%;
+}
+
+.heading-change-log {
+    margin-left: 5%;
+    margin-top: 13%;
+}
+
+.search-navbar {
+    padding: 0px 4px 2px;
+    margin-top: 9%;
+    height: inherit;
+    margin-left: 19%;
+}
+
+.search-header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1037;
+    margin-top: 67px;
+    background-color: #f0f7f9;
+    padding: 5px 3px 0px;
+}
+
+.btn-service-search {
+    padding: 0 41px 2px;
+}
+
+.serach-service-list {
+    white-space: nowrap;
+    height: 1em;
+    width: 100%;
+}
+
+.label-service {
+    margin-left: 36px;
+    font-weight: 400 !important;
+}
+
+.list-item-service {
+    display: inline;
+    padding: 2px 28px 11px;
+}
+
+.status-content {
+    margin-left: 37%;
+    margin-top: 12%;
+    margin-bottom: 20%;
+    width: 60%;
+}
+
+.contentBorder {
+    border: 1px solid #ced4da;
+    border-radius: 15px;
+}
+
+.questionGeneral {
+    padding: 23px;
+}
+
+.button-questionnair {
+    padding: 8px 0px 1px;
+}
+
+.status-active-select {
+    margin-left: 6%;
+    width: 20% !important;
+}
+
+.admin-availability-table {
+    width: 402px;
+}
+
+.admin-availability-date {
+    margin-left: 13%;
+}
+
+.admintable {
+    border-collapse: separate !important;
+}
+
+.admin-status-btn {
+    border-radius: 5px;
+    background-color: #2b5ea6;
+    color: #FFF;
+    border-color: #2b5ea6;
+}
+
+.admin-status-btn {
+    font-family: 'Nunito', sans-serif;
+}
+
+.paragarh-account-search {
+    padding: 2px 31px 22px;
+}
+
+.admin-service-name {
+    padding: 12px 11px 0px;
+}
+
+.title-service-name {
+    padding: 27px 0 9px;
+}
+
+.listing-service-admin {
+    margin-top: 2%;
+    padding: 27px 0 9px;
+}
+
+.admin-service-title {
+    margin-left: 4%;
+    margin-top: 2%;
+}
+
+.textarea-search-change-log {
+    resize: none;
+}
+
+.search-change-log-btn {
+    float: right;
+}
+
+#textareaForQuestion {
+    resize: none;
+    width: 100%;
+}
+
+.dzu-dropzone {
+    border: none !important;
+    overflow: hidden !important;
+}
+
+.dzu-previewContainer {
+    padding: 10px 3% !important;
+}
+
+.dzu-submitButtonContainer {
+    margin: 0 !important;
+}
+
+.dzu-previewButton {
+    background-size: 10px 10px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 10px !important;
+    height: 10px !important;
+    cursor: pointer;
+    opacity: 0.9;
+    margin: 2px 0 2px 10px !important;
+}
+
+.dzu-previewStatusContainer progress {
+    width: 154px;
+    height: 10px;
+}
+
+.drop-message {
+    border: 2px solid #d9d9d9;
+    padding: 15px 0;
+}
+
+/* .dzu-input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+} */
+
+.tableLayout th {
+    border: 1px solid gainsboro;
+}
+
+.tableLayout {
+    border-radius: 14px;
+    border: 1px solid gainsboro;
+}
+
+.checkboxPrimary {
+    width: 20px;
+    height: 20px;
+}
+
+.headerHeading {
+    margin-top: 67px;
+    padding-left: 21px;
+    background-color: #f0f7f9;
+}
+
+.account-image-admin {
+    max-width: 63%;
+    height: 89px;
+}
+
+.table-row-content {
+    margin-top: 28px;
+}
+
+.admin-navbar-notification-icon {
+    height: 19px;
+    width: 20px;
+    border-radius: 12px;
+    padding: 3px 3px 6px;
+    margin-bottom: 24%;
+    margin-right: 6%;
+}
+
+.account-image-admin-pdf {
+    max-width: 50%;
+    height: 42px;
+}
+
+.table-row-content1 {
+    margin-top: 4px;
+}
+
+.div-btn-reject, .div-btn-cancel {
+    padding: 0 42px 0;
+}
+
+.tableHeadingColumn {
+    background-color: #2b5ea6;
+    border-color: #2b5ea6;
+}
+
+.admiTable-first {
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+
+.admiTable-last {
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.tableHeading {
+    color: #fff;
+    font-weight: 600;
+    font-size: large;
+}
+
+.taskButton {
+    padding: 0 5px 0;
+    max-width: 13.666667%;
+}
+
+.label-questionnair {
+    margin-left: 20px;
+}
+
+.checkbox-1 {
+    margin-left: 20px;
+}
+
+.label-checkbox {
+    font-weight: 400 !important;
+}
+
+.live-operation-div {
+    max-width: 11.666667%;
+    padding-right: 0px !important;
+    padding-left: 12px !important;
+}
+
+.checkbox-questionnair {
+    padding: 0 0 0 !important;
+    width: 3%;
+}
+
+.professionName {
+    max-width: 15%;
+}
+
+.customerName {
+    max-width: 19%;
+}
+
+.serviceType {
+    max-width: 16%;
+}
+
+.contactNo {
+    max-width: 15%;
+}
+
+.saveServiceButton {
+    margin-left: -12px;
+}
+
+.create-task-btn {
+    width: 93%;
+}
+
+#repeatAvailability {
+    width: 20%;
+}
+
+.div-status-repeat {
+    padding: 20px 1px 1px;
+}
+
+.paddCssService {
+    margin-top: 13px;
+}
+
+.adminServiceType {
+    margin-top: 18px;
+}
+
+.adminServiceType label {
+    margin-left: 24px !important;
+}
+
+.imageUploadService {
+    margin-top: 2px;
+}
+
+.btn-service-type {
+    border: none !important;
+    background: transparent !important;
+}
+
+.serice-type-table {
+    padding: 4px 25px 11px;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='black' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 2px;
+    margin-right: 2rem;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+.orderstatus {
+    max-width: 15.666667%;
+}
+
+.adminBodyArea {
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 9%;
+}
+
+.edit-questionnair {
+    width: 20px;
+}
+
+.edit-option {
+    width: 16px;
+}
+
+.inline {
+    display: inline-block;
+    margin: 10px;
+}
+
+.inputQuestionsOne {
+    width: 658px;
+}
+
+.addQuestionForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.question-form-wrapper {
+    width: 89%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 12px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 65px;
+    margin-top: -16px;
+    margin-right: 67px;
+}
+
+.titleQuestion {
+    text-align: center;
+    width: 100%;
+    color: #111;
+    padding: 7px 13px 7px;
+    font-weight: lighter;
+}
+
+.question-area {
+    width: 100%;
+}
+
+.submitQuestionForm {
+    margin-left: 101px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submitQuestionBtn:hover {
+    color: #fff !important;
+}
+
+.add-questionnair-question {
+    width: 27px;
+}
+
+.submitQuestionForm button {
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #212529;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: .25em;
+}
+
+.submitQuestionBtn {
+    color: black !important;
+    border-radius: 20px;
+}
+
+.mid-section {
+    padding: 8px 31px 3px;
+}
+
+.title-of-image {
+    color: #f4f6fb;
+    font-size: 20px;
+    margin-left: 42%;
+}
+
+.mange-service-heading {
+    margin-top: 67px;
+    padding-left: 20%;
+    background-color: #f0f7f9;
+}
+
+.admin-manage-data {
+    padding: 28px 29px 14px;
+}
+
+.content-manage-service {
+    margin-left: 19%;
+    width: 81%;
+}
+
+.bottom-padding {
+    padding: 17px 28px 5px
+}
+
+.button-manage-service {
+    padding: 16px 12px 0;
+}
+
+.btn-service {
+    width: 50%;
+    margin-left: 34px;
+}
+
+.drop-zone-container {
+    transform: translateY(-100%);
+}
+
+.drop-zone-container p {
+    color: red;
+    text-align: center;
+}
+
+.drop-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 144px;
+    width: 804px;
+    height: 135px;
+    border: 1px dashed #2d2929;
+}
+
+.upload-icon {
+    width: 35px;
+    height: 35px;
+    background: url(../assets/admin/upload.png) no-repeat center center;
+    background-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.drop-message {
+    text-align: center;
+    color: #4aa1f3;
+    font-family: Arial;
+    font-size: 20px;
+}
+.displnone{
+    display: none;
+}
+.box-manage-service {
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    height: 47px;
+    border: 1px solid #cfcfcf;
+    padding: 12px 0 4px;
+}

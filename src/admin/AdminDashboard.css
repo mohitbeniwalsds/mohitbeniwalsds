@@ -1,0 +1,184 @@
+ul.MuiList-root.adminNavBar.MuiList-padding {
+	padding-top: 2px;
+}
+.makeStyles-drawerPaper-5 {
+    width: 250px;
+    margin-top:84px !important;
+    background-color: #353b48 !important;
+    color: #fff;
+
+}
+.pg-viewer-wrapper {
+    overflow: hidden !important;
+}
+.titleOne {
+    padding: 38px 3px 1px;
+    width: 55%;
+}
+.image-page-size {
+    height: 674px;
+    max-width: 1354px;
+    background: #271f1f;
+}
+.btnBack {
+    width: 99%;
+    text-align: right;
+    padding: 7px 1px 13px;
+}
+h3.docsTitle {
+    color: white;
+    text-align: right;
+    font-weight: 700;
+}
+a.linkToDocs{
+    padding: 14px 14px 13px;
+    border: 1px solid #dee2e6;
+    color: black;
+    border-radius: 100%;
+    width: 69px !important;
+    height: 50px;
+}
+.list-group {
+    display: contents !important;
+}
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right {
+transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+}
+.left {
+transform: rotate(135deg);
+-webkit-transform: rotate(135deg);
+}
+.leftArrow {
+    margin-left: 173px;
+    margin-top: 165px;
+}
+.rightArrow {
+    margin-top: 149px;
+    margin-left: 416px;
+}
+.round {
+    background-color: #B8B8B8;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 9px;
+}
+.documents-approve-btn {
+    border-radius:5px;
+    background-color: #2b5ea6;
+    color: #FFF;
+    border-color: #2b5ea6;
+}
+.documents-reject-btn {
+    border-radius:5px;
+    background-color: #b71423;
+    color: #FFF;
+    border-color: #b71423;
+}
+.bottom-row {
+    margin-top: 20px;
+}
+.documents-reject-btn {
+    font-family: 'Nunito', sans-serif;
+}
+.documents-approve-btn {
+    font-family: 'Nunito', sans-serif;
+}
+.docShowBody {
+    margin-left: -39px;
+    align-items: center;
+}
+.AdminLoginWrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    background-color: #258ea6;
+}
+.AdminLogin-form-wrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px #555;
+    background-color: #ffffff;
+}
+.AdminLoginForm {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading-adminForm{
+    text-align: center;
+    width: 100%;
+    color: #111;
+    font-weight: lighter;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.username,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.AdminLoginSubmit button {
+    background-color: #519e8a;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 100%;
+    margin-top: 1em;
+    padding: 8px 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25em;
+}
+.AdminLoginForm label {
+    font-size: 0.8em;
+    margin-bottom: 0.25em;
+    color: #222;
+    font-weight: lighter;
+}
+.AdminLoginSubmit {
+    margin-left: 70px;
+}
+.AdminLoginSubmit button:hover {
+    color: #519e8a;
+    background-color: #fff;
+    border: 2px solid #519e8a;
+}
+.AdminLoginSubmit small {
+    color: #999;
+    font-weight: lighter;
+    margin-left: 34px;
+}
+input {
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+input::placeholder {
+    font-size: 1.2em;
+    font-weight: lighter;
+    color: #999;
+}
+input.error {
+    border: 1px solid red;
+}
+.errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+}

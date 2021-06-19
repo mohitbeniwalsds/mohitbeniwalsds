@@ -1,0 +1,95 @@
+.logo-sizes {
+    width: 90px;
+}
+
+.left-sidenav-menu li.mm-active>a {
+    color: #fff;
+    background: linear-gradient(14deg, #f38520 0%, rgb(255, 122, 0));
+}
+
+.left-sidenav {
+    padding: 54px 25px 25px;
+}
+
+.button-menu-mobile {
+    color: #f38520 !important;
+}
+
+.account-body .auth-card .auth-logo-box .auth-logo {
+    width: 70px!important;
+    border-radius: 0!important;
+}
+
+.account-body .auth-page {
+    margin: 30px auto;
+}
+
+.btn-gradient-primary {
+    background: linear-gradient(14deg, #f38520 0%, rgb(241, 115, 0));
+}
+
+.table-rep-plugin .btn-default {
+    border: none;
+    background: linear-gradient(14deg, #f38520 0%, rgb(248, 119, 0));
+}
+
+.wizard>.steps .current a, .wizard>.steps .current a:active, .wizard>.steps .current a:hover {
+    background: linear-gradient(14deg, #ff7a00 0%, rgb(243, 133, 32));
+}
+
+.wizard>.steps .disabled a .number, .wizard>.steps .disabled a:active .number, .wizard>.steps .disabled a:hover .number, .wizard>.steps .done a .number, .wizard>.steps .done a:active .number, .wizard>.steps .done a:hover .number {
+    border-color: #f58219;
+}
+
+.wizard>.steps .disabled a {
+    -webkit-box-shadow: 0px 0px 0px 2.25px rgb(248, 128, 19);
+    box-shadow: 0px 0px 0px 2.25px rgb(249, 128, 16);
+}
+
+.wizard>.steps .disabled a .number, .wizard>.steps .disabled a:active .number, .wizard>.steps .disabled a:hover .number, .wizard>.steps .done a .number, .wizard>.steps .done a:active .number, .wizard>.steps .done a:hover .number {
+    border-color: #f58219;
+}
+
+.wizard>.steps .number {
+    background-color: rgb(218, 120, 45);
+}
+
+.wizard>.steps .disabled a {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #000000;
+}
+
+.wizard>.steps .disabled a:hover {
+    background-color: rgb(249, 127, 15);
+    color: #ffffff;
+    padding: 0 20px 0 0;
+    -webkit-box-shadow: 0px 0px 0px 2.25px rgb(249, 127, 15);
+    box-shadow: 0px 0px 0px 2.25px rgb(247, 129, 21);
+}
+
+.wizard>.steps .disabled a .number, .wizard>.steps .disabled a:active .number, .wizard>.steps .disabled a:hover .number {
+    border-color: #ffffff;
+}
+
+.wizard>.actions .disabled a, .wizard>.actions .disabled a:active, .wizard>.actions .disabled a:hover {
+    opacity: .65;
+    background: linear-gradient(14deg, #f5831b 0%, rgb(245, 131, 25));
+}
+
+@media only screen and (max-width: 1024px) {
+    .logo-sizes {
+        width: 70px;
+    }
+    .navbar-custom {
+        min-height: 100px;
+        border-bottom: 2px solid #f38520;
+    }
+}
+
+@media only screen and (max-width: 435px) {
+    .enlarge-menu.enlarge-menu-all .topbar .topbar-left {
+        text-align: left;
+        margin-left: 35px;
+        width: 200px;
+    }
+}
